@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="InentBanking99project">
+<listeners>
+<listener class-name="com.InentBanking99project.utilities.Reporting"/>
+</listeners>
+<test name="Internet Banking Test" >
+<parameter name="browser" value="ChromePath"/>
+
+<classes>
+
+ <!-- <class name="com.InentBanking99project.testCases.TC_LoginTest_001"/> -->
+  <!--    <class name="com.InentBanking99project.testCases.TC_LoginTest_002"/>-->
+  <class name="com.InentBanking99project.testCases.TC_AddCustomer_003"/> 
+
+</classes>
+
+</test>
+
+
+
+
+</suite>
